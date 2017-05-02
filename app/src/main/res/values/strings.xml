@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KotlinWorkshop</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Opslaan</string>
+    <string name="description">Omschrijving</string>
+    <string name="title">Titel</string>
+    <string name="id">ID</string>
+    <string name="edit">Wijzigen</string>
+</resources>
