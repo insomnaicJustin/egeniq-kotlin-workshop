@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     fun showFragment(fragment: Fragment, addToBackStack: Boolean = true) {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.main_fragment_container, fragment)
+            replace(R.id.main_fragment_container, fragment)
             if (addToBackStack) {
                 addToBackStack(null)
             }
